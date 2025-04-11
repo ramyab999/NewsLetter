@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+ul li {
+    font-size: 14px;
+}
+
+.news {
+    text-align: center;
+}
+
+.mertxe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.image1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.para1 {
+    font-size: 30px;
+}
+
+.button1 {
+    background-image: linear-gradient(to right, rgb(9, 2, 19), #ff33f3);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px auto;
+    display: block;
+}
+
+.artificial {
+    background-color: rgb(199, 199, 184);
+}
+
+.evolution,
+.chips,
+.artificial {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.evolutionpara,
+.devices {
+    flex: 1;
+    background-color: rgb(199, 199, 184);
+    padding: 20px;
+}
+
+.evoluationimg img,
+.devicesimg img {
+    width: 100%;
+    height: auto;
+}
+
+.button2 {
+    background-color: magenta;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.artificial>div {
+    flex: 1;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.logos div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.register {
+    background-color: #ff33f3;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    color: grey;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .para1 {
+        font-size: 22px;
+    }
+
+    .register {
+        font-size: 20px;
+    }
+
+    .logos img {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .para1 {
+        font-size: 18px;
+    }
+
+    .button1,
+    .button2 {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    .logos img {
+        width: 70px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .register {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .para1 {
+        font-size: 16px;
+    }
+
+    .button1,
+    .button2 {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .logos img {
+        width: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .register {
+        font-size: 16px;
+    }
+}
